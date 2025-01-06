@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+<!-- /* ----------------------------------body animation 1----------------------- */ -->
+<body style="color: #fff;">
+  <div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+  </div>
+</body>
+
+
+
+<!-- /* ----------------------------------body animation 1----------------------- */ -->
+
+
+
+
+<!-- Favicon -->
+<link href="img/favicon.ico" rel="icon">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body >
+    <!-- <div class="container text-center">
+        <div class="row align-items-start ">
+          <div class="col --bs-danger-rgb">
+            One of three columns
+          </div>
+          <div class="col">
+            One of three columns
+          </div>
+          <div class="col">
+            One of three columns
+          </div>
+        </div>
+      </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <!-- -------------------------------------------navbar----------------------------------------- -->
+
+     <!-- Sidebar -->
+     <div class="sidebar" id="sidebar">
+      <div class="container">
+          <div class="sidebar-heading text-center">
+            
+          </div>
+          <nav class="nav flex-column">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+          </nav>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+          <!-- Toggle Sidebar Button (Hamburger) -->
+          <button class="navbar-toggler" type="button" id="toggleSidebar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Heading in Navbar -->
+          <a class="navbar-brand"  style="color: #fff;" href="#">Hi, It's Kuldeep Dabas</a>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+
+          <!-- Search Bar -->
+          <div class="search-bar ms-auto">
+              <input type="text" placeholder="Search..." id="searchInput" class="form-control">
+          </div>
+      </div>
+  </nav>
+
+  <!-- Main content area -->
+  <div class="content" id="content">
+      <!-- <h1>Welcome to the Page!</h1>
+      <p>This is where the content will be displayed on your website.</p> -->
+  </div>
+
+  <!-- Bootstrap 5 JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+  <script>
+      const toggleSidebarButton = document.getElementById('toggleSidebar');
+      const sidebar = document.getElementById('sidebar');
+      const content = document.getElementById('content');
+
+      // Toggle sidebar visibility
+      toggleSidebarButton.addEventListener('click', function () {
+          sidebar.classList.toggle('active');
+          content.classList.toggle('active');
+
+
+
+          sidebar.classList.toggle('Close');
+          content.classList.toggle('Close');
+      });
+
+      // On page load, ensure the sidebar is hidden initially
+      window.onload = function () {
+          sidebar.classList.remove('active');
+          content.classList.remove('active');
+
+          sidebar.classList.remove('Close');
+          content.classList.remove('Close');
+      };
+  </script>
+
+  </script>
+
+
+<!-- -----------------------------------header---------------------------------------------------------- -->
+
+<header>
+   
+</header>
+
+<!-- carousel -->
+<div class="carousel">
+    <!-- list item -->
+    <div class="list">
+        <div class="item">
+            <img src="./web-design/img-1.jpeg">
+            <div class="content">
+                <div class="author">Hi i'm Kuldeep Dabas</div>
+                <div class="title">Full Stack</div>
+                <div class="topic">Web Developer</div>
+                <div class="des">
+                    <!-- lorem 50 -->
+                    I'm a full stack web developer with extensive skills in creating web applications. My expertise includes
+                  website design, graphic design, and many more. I strive to bring creative and efficient solutions to
+                  the web.
+                </div>
+                <div class="buttons">
+                    <button> <a href="about.html" style="text-decoration: none; color: black;">About me</a> </button>
+                    <button> <a href="contact.html" style="text-decoration: none; color: #fff;"> Contact</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./web-design/vecteezy_sport-car-on-black-background-illustration_22862481.jpg">
+            <div class="content">
+                <div class="author">Hi i'm Kuldeep Dabas</div>
+                <div class="title">Responsive </div>
+                <div class="topic"> page creator</div>
+                <div class="des">
+                    I'm a full stack web developer with extensive skills in creating web applications. My expertise includes
+                  website design, graphic design, and many more. I strive to bring creative and efficient solutions to
+                  the web.
+                </div>
+                <div class="buttons">
+                  <button> <a href="about.html" style="text-decoration: none; color: black;">About me</a> </button>
+                  <button> <a href="contact.html" style="text-decoration: none; color: #fff;"> Contact</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./web-design/img-2.jpg">
+            <div class="content">
+                <div class="author">Hi i'm Kuldeep Dabas</div>
+                <div class="title">Web</div>
+                <div class="topic">Designer</div>
+                <div class="des">
+                    I'm a full stack web developer with extensive skills in creating web applications. My expertise includes
+                  website design, graphic design, and many more. I strive to bring creative and efficient solutions to
+                  the web.
+                </div>
+                <div class="buttons">
+                  <button> <a href="about.html" style="text-decoration: none; color: black;">About me</a> </button>
+                  <button> <a href="contact.html" style="text-decoration: none; color: #fff;"> Contact</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./web-design/vecteezy_modern-apartment-interior-with-comfortable-blue-sofa-and_24614454.jpg">
+            <div class="content">
+                <div class="author">Hi i'm Kuldeep Dabas</div>
+                <div class="title">graphic</div>
+                <div class="topic">Designer</div>
+                <div class="des">
+                    I'm a full stack web developer with extensive skills in creating web applications. My expertise includes
+                    website design, graphic design, and many more. I strive to bring creative and efficient solutions to
+                    the web.
+                </div>
+                <div class="buttons">
+                  <button> <a href="about.html" style="text-decoration: none; color: black;">About me</a> </button>
+                  <button> <a href="contact.html" style="text-decoration: none; color: #fff;"> Contact</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- list thumnail -->
+    <div class="thumbnail">
+        <div class="item">
+            <img src="./web-design/img-1.jpeg">
+            <div class="content">
+                <div class="title">
+                    Name Slider
+                </div>
+                <div class="description">
+                    Description
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./web-design/vecteezy_sport-car-on-black-background-illustration_22862481.jpg">
+            <div class="content">
+                <div class="title">
+                    Name Slider
+                </div>
+                <div class="description">
+                    Description
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./web-design/img-2.jpg">
+            <div class="content">
+                <div class="title">
+                    Name Slider
+                </div>
+                <div class="description">
+                    Description
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./web-design/vecteezy_modern-apartment-interior-with-comfortable-blue-sofa-and_24614454.jpg">
+            <div class="content">
+                <div class="title">
+                    Name Slider
+                </div>
+                <div class="description">
+                    Description
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- next prev -->
+
+    <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    <!-- time running -->
+    <div class="time"></div>
+</div>
+
+<script src="app.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<!-- -------------------------------------------------------header close-------------------------------------- -->
+     <!-- ------------------------------------main-container----------------------------- -->
+     <div class="container">
+      <div class="row">
+          <!-- Left Section -->
+          <div class="col-md-6 left-section">
+              <h1>What is Full stack development?</h1>
+             
+              <p>
+                Full stack web development is the art and science of crafting dynamic,
+                fully functional web applications by seamlessly integrating front-end 
+                and back-end technologies. It’s a journey where creativity meets logic,
+                 blending visually engaging user interfaces with robust, efficient server
+                 -side architecture.
+                 <br>
+
+                As a full-stack developer, you wear multiple hats: designing interactive,
+                 responsive interfaces that captivate users while ensuring smooth 
+                 navigation and accessibility, and engineering scalable back-end solutions
+                  that handle data storage, authentication, and API integrations with 
+                  precision. You wield a toolkit of technologies, from HTML, CSS, and 
+                  JavaScript frameworks like React or Angular for the front end to 
+                  back-end powerhouses like Node.js, Django, or Ruby on Rails.
+                <br>
+                But it doesn’t stop there. Full stack development involves orchestrating
+                
+                databases, ensuring security protocols, and deploying applications 
+                seamlessly to the web. It’s about building bridges between user needs 
+                and business goals, creating solutions that are not only functional but
+                also delightful to use.
+                <br>
+                
+                In essence, full stack web development is like being a digital architect,
+                 constructing the web's skyscrapers—projects that are both aesthetically 
+                 pleasing and structurally sound, tailored to enhance user experiences
+                  while pushing the boundaries of innovation.s
+                  <br>
+              </p>
+              <button class="about-btn"> <a href="portfolio.html" style="text-decoration: none; color: #fff;">View portfolio</a> </button>
+          </div>
+
+          <!-- Right Section -->
+          <div class="col-md-6 right-section">
+              <!-- Placeholder for Image -->
+              <img src="./web-design/modern-hexagon-tech-logo-designs-concept-hexa-technology-logo-template-vector.jpg" alt="Profile Image">
+          </div>
+      </div>
+  </div>
+
+  <!-- Bootstrap 5 JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+
+
+  <!-- ---------------night mode--------------------- -->
+
+
+
+  <div class="container text-center" style="margin-top: 50px; margin-bottom: 50px;">
+    <h1>Toggle Theme Change mod</h1>
+    <button class="mode-toggle-btn" id="modeToggleBtn">Switch to Night Mode</button>
+</div>
+
+<!-- Bootstrap 5 JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+<script>
+    // Get button and body element
+    const modeToggleBtn = document.getElementById('modeToggleBtn');
+    const body = document.body;
+
+    // Add event listener to the button
+    modeToggleBtn.addEventListener('click', function () {
+        // Toggle night mode class
+        body.classList.toggle('night-mode');
+
+        // Change button text based on the current mode
+        if (body.classList.contains('night-mode')) {
+            modeToggleBtn.textContent = 'Switch to Day Mode';
+        } else {
+            modeToggleBtn.textContent = 'Switch to Night Mode';
+        }
+    });
+</script>
+
+
+
+<!-- ------------------------------------timeline------------------------------------------ -->
+
+<section style=  "background:linear-gradient(to left,#000000 , #923CB5);">
+    <h1 style="text-align: center; padding-top: 100px;">What Comes under Full Stack Development</h1>
+    <div class="container py-5">
+      <div class="main-timeline-2">
+        <div class="timeline-2 left-2">
+          <div class="card">
+            <img src="./web-design/one.jpg" class="card-img-top"
+              alt="Responsive image">
+            <div class="card-body p-4">
+              <h4 class="fw-bold mb-4">Front end Development</h4>
+              <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> </p>
+              <p class="mb-0">Frontend development focuses on building the visual and interactive elements of a website or application that users see and interact with. It involves technologies like HTML, CSS, JavaScript, and frameworks such as React, Angular, or Vue.js.</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-2 right-2">
+          <div class="card">
+            <img src="./web-design/2.jpg" class="card-img-top"
+              alt="Responsive image">
+            <div class="card-body p-4">
+              <h4 class="fw-bold mb-4">Backend Development</h4>
+              <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> </p>
+              <p class="mb-0">Backend development involves creating the server-side logic, databases, and APIs that power an application's functionality. It ensures data processing, storage, and communication between the server and the frontend using technologies like Node.js, Python, Java, or PHP.
+
+
+
+
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-2 left-2">
+          <div class="card">
+            <img src="./web-design/3.jpg" class="card-img-top"
+              alt="Responsive image">
+            <div class="card-body p-4">
+              <h4 class="fw-bold mb-4">Database Management</h4>
+              <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> </p>
+              <p class="mb-0">Database management involves designing, creating, and maintaining databases to store, retrieve, and manage data efficiently. It includes working with systems like SQL (e.g., MySQL, PostgreSQL) or NoSQL (e.g., MongoDB) to organize and secure data for applications.</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-2 right-2">
+          <div class="card">
+            <img src="./web-design/4.jpg" class="card-img-top"
+              alt="Responsive image">
+            <div class="card-body p-4">
+ ./             <h4 class="fw-bold mb-4"> Version Control And Collaboration</h4>
+              <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> </p>
+              <p class="mb-0">Version control and collaboration in full-stack development involve using tools like Git and platforms like GitHub to track code changes, manage versions, and enable teamwork. Developers use branching, merging, and pull requests to collaborate effectively and maintain project integrity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-2 left-2">
+          <div class="card">
+            <img src="./web-design/5 (2).jpg" class="card-img-top"
+              alt="Responsive image">
+            <div class="card-body p-4">
+              <h4 class="fw-bold mb-4"> Full Stack Integration</h4>
+              <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> </p>
+              <p class="mb-0">Full stack integration combines the front-end, back-end, and database components into a seamless application. It ensures smooth data flow and functionality, enabling features like user interfaces, server logic, and database interactions to work cohesively.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- ---------------------------------------------slider------------------------------- -->
+
+<div class="banner">
+  <div class="slider" style="--quantity: 10">
+      <div class="item" style="--position: 1"><img src="./web-design/restaurant.jpg" alt=""></div>
+      <div class="item" style="--position: 2"><img src="./web-design/agency.jpg" alt=""></div>
+      <div class="item" style="--position: 3"><img src="./web-design/landing.jpg" alt=""></div>
+      <div class="item" style="--position: 4"><img src="./web-design/finance.jpg" alt=""></div>
+      <div class="item" style="--position: 5"><img src="./web-design/main_demo.jpg" alt=""></div>
+      <div class="item" style="--position: 6"><img src="./web-design/one_page.jpg" alt=""></div>
+      <div class="item" style="--position: 7"><img src="./web-design/web-1.jpg" alt=""></div>
+      <div class="item" style="--position: 8"><img src="./web-design/web-2.jpg" alt=""></div>
+      <div class="item" style="--position: 9"><img src="./web-design/web-3.jpg" alt=""></div>
+      <div class="item" style="--position: 10"><img src="./web-design/web-4.jpg" alt=""></div>
+  </div>
+  <div class="content">
+    <h1 data-content="Think Creative">
+        Think Creative
+    </h1>
+    <div class="author">
+        <h3>Create your own</h3>
+        <h3>Web Design</h3>
+        <p>
+            "The power to create is in your fingertips, code away!"
+        </p>
+    </div>
+      <div class="model"></div>
+  </div>
+</div>
+
+
+
+
+
+<!-- ------------------------------------------more about me----------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<!-- -------------------------------------footer---------------------------------------- -->
+
+<footer class="footer text-center" style="background-color: #000000;">
+  <div class="container">
+      <div class="footer-heading">Content</div>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </div>
+     <br>
+      <form class="d-flex justify-content-center"><br>
+          <input type="email" class="form-control w-50 me-2" placeholder="Enter your email" required><br>
+        
+      </form>
+      <button type="submit" class="btn btn-primary subscribe-button">leave a comment</button>
+      
+      <br>
+      <br>
+      <div class="copyright" style="font-size: 15px;">&copy; <strong>Copyright claimed by Kuldeep Dabas</strong> </div>
+  </div>
+</footer>
+
+</body>
+</html>
